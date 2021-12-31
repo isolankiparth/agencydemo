@@ -126,16 +126,16 @@ get_header(); ?>
             resetForm: true
         });
 
+        // Form validation
         function validate(formData, jqForm, options) { 
-        
+            
             var first_name = $('input[name=first_name]'); 
             var last_name = $('input[name=last_name]'); 
             var email = $('input[name=email]'); 
             var phone = $('input[name=phone]'); 
             var description = $('textarea[name=description]'); 
         
-            // usernameValue and passwordValue are arrays but we can do simple 
-            // "not" tests to see if the arrays are empty 
+            // Check input validation
             if (!first_name.val() || !last_name.val() || !email.val() || !phone.val() || !description.val()) { 
                 first_name.val(jQuery.trim(first_name.val()));
                 last_name.val(jQuery.trim(last_name.val()));
