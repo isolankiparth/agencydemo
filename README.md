@@ -1,17 +1,22 @@
-# agencydemo
-WordPress Demo Task
+# Agency Demo
 
+Include all WordPress files and database file.
 
 WordPress Backend Credentials
+-
 
-Username: demo
-Password: demo
+<b>Username:</b> demo
+
+<b>Password:</b> demo
 
 
 Database Credentials
+-
 
 DB Name: agencydemo
-Username: root
-Password: root
 
-DB Backup Folder Name: Database
+<b>Username:</b> root
+
+<b>Password:</b> root
+
+<b>DB Backup Folder Name:</b> Database
